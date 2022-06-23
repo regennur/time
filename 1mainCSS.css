@@ -1,0 +1,233 @@
+.space { 
+
+width: 80%;
+margin: 100px;
+top: 10px;
+height: 500px;
+background: url(besst.gif) no-repeat;
+}
+
+
+#navbar ul { display: none; }
+#navbar li:hover ul { display: block; }
+
+#navbar, #navbar ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+#navbar li { float: left; }
+#navbar ul li { float: none; }
+
+#navbar ul {
+  display: none;
+  position: absolute;
+  top: 100%;
+}
+#navbar li {
+  float: left;
+  position: relative;
+}
+#navbar { height: 30px; }
+
+
+#navbar ul {
+  display: none;
+  background-color: #778899;
+  position: absolute;
+  top: 100%;
+}
+#navbar li:hover ul { display: block; }
+#navbar, #navbar ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+#navbar {
+  height: 30px;
+  background-color: #666;
+  padding-left: 25px;
+  min-width: 470px;
+}
+#navbar li {
+  float: left;
+  position: relative;
+  height: 100%;
+}
+#navbar li a {
+  display: block;
+  padding: 6px;
+  width: 100px;
+  color: #fff;
+  text-decoration: none;
+  text-align: center;
+}
+#navbar ul li { float: none; }
+#navbar li:hover { background-color: #778899;}
+#navbar ul li:hover { background-color: #666; }
+
+
+.mirrorY { transform: scale(1, -1); }
+
+
+.photos {
+	text-align: center;
+	margin: 0 0 20px 0;
+	overflow: hidden;
+}
+.photos a {
+	width: 33.3%;
+	display: block;
+	float: left;
+	line-height: 0;
+}
+.photos img {
+	width: 100%;
+	height: auto;
+}
+
+
+
+
+.photo-container-2 {
+    max-width: 100%;
+    width: 100%;
+    margin: 20px auto;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.2), 0 16px 20px rgba(0,0,0,0.2);
+}
+.photo-container-2 img {
+    width: 100%;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.2), 0 16px 20px rgba(0,0,0,0.2);
+}
+.photo-container-2 .photo-1 {
+    position: relative;
+    animation: rotate 10s linear 5s infinite;
+}
+.photo-container-2 .photo-2 {
+    position: absolute;
+    top: 0;
+    animation: rotate 10s linear infinite;
+}
+@keyframes rotate {
+    0% {
+        opacity: 1;
+        transform: rotate(0) scale(1);
+    }
+    50% {
+        transform: rotate(0) scale(1);
+        opacity: 1;
+    } 
+    59.99999% {
+        transform: rotate(45deg) scale(3);
+        opacity: 0;
+        z-index: 1;
+    }   
+    60% {
+        opacity: 0;
+        z-index: -1;
+    }  
+    100% {
+        opacity: 1;
+    }  
+}
+
+
+
+
+
+.footer-bg {
+ background: #708090; /* Цвет фона */
+}
+
+
+.copyright {
+ width: 740px; /* Ширина макета без полей */
+ padding: 0 10px 10px; /* Поля */
+ margin: auto; /* Выравнивание по центру */
+ color: #DCDCDC; /* Цвет текста */
+}
+.copyright p { 
+ margin: 0 0 5px 170px; /* Отступы текста */ 
+}
+
+
+a {
+    text-decoration: none; /* Убирает подчеркивание для ссылок */
+   } 
+  button[name="3"] { 
+    position: absolute;
+    top: 160%;
+    left: 56%;
+    border: none;
+    border-radius: 50%;
+    padding: 3px 20px;
+    background: #1E90FF;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: white;
+
+  }
+  button[name="3"]:hover { 
+    background: #4169E1;
+  } 
+
+
+ button[name="6"] { 
+    position: absolute;
+    top: 185%;
+    left: 45%;
+    border: none;
+    border-radius: 50%;
+    padding: 3px 20px;
+    background: #1E90FF;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: white;
+
+  }
+  button[name="6"]:hover { 
+    background: #4169E1;
+  } 
+
+
+ button[name="9"] { 
+    position: absolute;
+    top: 160%;
+    left: 33.5%;
+    border: none;
+    border-radius: 50%;
+    padding: 3px 20px;
+    background: #1E90FF;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: white;
+
+  }
+  button[name="9"]:hover { 
+    background: #4169E1;
+  } 
+
+
+ button[name="12"] { 
+    position: absolute;
+    top: 137.5%;
+    left: 45%;
+    border: none;
+    border-radius: 50%;
+    padding: 3px 20px;
+    background: #1E90FF;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: white;
+
+  }
+  button[name="12"]:hover { 
+    background: #4169E1;
+  } 
+
