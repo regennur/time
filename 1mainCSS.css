@@ -106,6 +106,7 @@ background: url(besst.gif) no-repeat;
     animation: rotate 10s linear 5s infinite;
 }
 .photo-container-2 .photo-2 {
+    width: 100%;
     position: absolute;
     top: 0;
     animation: rotate 10s linear infinite;
