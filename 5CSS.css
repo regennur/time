@@ -82,6 +82,20 @@
 	font-size: 17px;
 }
 
+.title2 {
+	font-size: 16px;
+	color: #000;
+        text-align: center;
+	line-height: 33px;
+}
+.title2 span {
+	display: left;
+	background: #00000094;
+	box-shadow: -10px 0 0 #00000094, 10px 0 0 #00000094;
+	padding: 10px 0;
+	color: #FFFFFF;
+	font-size: 16px;
+}
 
 
 a {
