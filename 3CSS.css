@@ -175,9 +175,7 @@ a {
 
 
  button[name="main"] { 
-    position: absolute;
-    top: 163%;
-    left: 27%;
+    position: reltiv;
     border: none;
     border-radius: 50%;
     padding: 13px 5px;
