@@ -1,6 +1,8 @@
 .space { 
     width: 70%;
     height: 690px;
+    max-width: 1000px;
+    min-width: 1000px;
     margin-left: 13%;
     padding: 20px; /* Поля */
     background: url(help.bild.gif) no-repeat; /* Цвет фона *//
